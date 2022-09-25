@@ -1,6 +1,6 @@
 [
     {
-        "question": "Python dasturlash tilining asoschisi kim?",
+        "question": "Who is the founder of the Python programming language?",
         "answers": [
             {
                 "key": "Guido van Rossum",
@@ -21,7 +21,7 @@
         ]
     },
     {
-        "question": "Quyidagilar qanday nomlanadi:\n\n\t+, 0, 'Integer'",
+        "question": "How are the following named:\n\n\t+, 0, 'Integer'",
         "answers": [
             {
                 "key": "Integer, operator, string",
@@ -42,7 +42,7 @@
         ]
     },
     {
-        "question": "input() funksiyasi qanday turdagi qiymat qaytaradi?",
+        "question": "what type of value does the input() function return?",
         "answers": [
             {
                 "key": "List",
@@ -57,13 +57,13 @@
                 "isTrue": false
             },
             {
-                "key": "Qiymat qaytarmaydi",
+                "key": "Value does not return",
                 "isTrue": false
             }
         ]
     },
     {
-        "question": "Quyidagi \"figurali qavslar\" orqali qanday turdagi ma'lumotlar hosil qilish mumkin:\n\n\t{}",
+        "question": "What types of data can be generated through the following \"figure brackets\" :\n\n\t{}",
         "answers": [
             {
                 "key": "Set",
@@ -84,18 +84,18 @@
         ]
     },
     {
-        "question": "for bu ...",
+        "question": "for is ...",
         "answers": [
             {
-                "key": "Qiymat qaytaruvchi funksiya",
+                "key": "Value return function",
                 "isTrue": false
             },
             {
-                "key": "Sikl",
+                "key": "Cycle",
                 "isTrue": true
             },
             {
-                "key": "Qiymat qaytarmaydigan funksiya",
+                "key": "Function that does not return value",
                 "isTrue": false
             },
             {
@@ -105,7 +105,7 @@
         ]
     },
     {
-        "question": "Quyidagi kod qanday natija qaytaradi?\n\n\ta = 5\n\tb = 2\n\tc = a % b\n\tprint(c)",
+        "question": "What result does the following code return?\n\n\ta = 5\n\tb = 2\n\tc = a % b\n\tprint(c)",
         "answers": [
             {
                 "key": "1",
@@ -126,7 +126,7 @@
         ]
     },
     {
-        "question": "Quyidagi kod qanday natija qaytaradi?\n\n\ta = ['12', '21']\n\tb = '11' + a[1]\n\tprint(b)",
+        "question": "What result will the following code return?\n\n\ta = ['12', '21']\n\tb = '11' + a[1]\n\tprint(b)",
         "answers": [
             {
                 "key": "1112",
@@ -147,7 +147,7 @@
         ]
     },
     {
-        "question": "Quyidagi kod qanday natija qaytaradi?\n\n\ta, b = 1, 2\n\tb = a\n\tx, y = b, a\n\tc = str(x) * y\n\tprint(c)",
+        "question": "What result will the following code return?\n\n\ta, b = 1, 2\n\tb = a\n\tx, y = b, a\n\tc = str(x) * y\n\tprint(c)",
         "answers": [
             {
                 "key": "1",
@@ -168,7 +168,7 @@
         ]
     },
     {
-        "question": "Quyidagi kod qanday natija qaytaradi?\n\n\ta = 2\n\tb = -2\n\twhile a >= 0:\n\t\tb = b ** a\n\t\ta -= 1\n\tprint(b)",
+        "question": "What result will the following code return?\n\n\ta = 2\n\tb = -2\n\twhile a >= 0:\n\t\tb = b ** a\n\t\ta -= 1\n\tprint(b)",
         "answers": [
             {
                 "key": "4",
@@ -189,7 +189,7 @@
         ]
     },
     {
-        "question": "Quyidagi kod qanday natija qaytaradi?\n\n\tprint(4 + 5 = 9)",
+        "question": "What result will the following code return?\n\n\tprint(4 + 5 = 9)",
         "answers": [
             {
                 "key": "Kod xato",
